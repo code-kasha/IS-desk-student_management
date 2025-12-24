@@ -11,7 +11,54 @@
 		<title>Desk</title>
 	</head>
 	<body>
-		<div id="app"></div>
+		<header class="p-5 mb-5">
+			<p class="text-3xl text-center font-bold">Desk</p>
+		</header>
+		<main>
+			<section id="registration-form">
+				<form id="student-details" action="" class="form">
+					<label for="student_name" class="input-text">Name</label>
+					<input
+						type="text"
+						name="student_name"
+						id="s_name"
+						class="input-field"
+					/>
+					<small class="error" id="err-name"></small>
+
+					<label for="student_id" class="input-text">Id</label>
+					<input type="text" name="student_id" id="s_id" class="input-field" />
+					<small class="error" id="err-id"></small>
+
+					<label for="student_email" class="input-text">Email </label>
+					<input
+						type="email"
+						name="student_email"
+						id="s_email"
+						class="input-field"
+					/>
+					<small class="error" id="err-email"></small>
+
+					<label for="student_contact" class="input-text">Contact Number</label>
+					<input
+						type="text"
+						name="student_contact"
+						id="s_contact"
+						class="input-field"
+					/>
+					<small class="error" id="err-contact"></small>
+
+					<input
+						type="submit"
+						id="submit-details"
+						name="Submit"
+						class="submit-btn"
+					/>
+				</form>
+			</section>
+			<section id="student-display"></section>
+		</main>
+		<footer></footer>
 		<script type="module" src="/src/main.js"></script>
 	</body>
 </html>

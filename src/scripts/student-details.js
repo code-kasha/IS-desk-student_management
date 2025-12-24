@@ -7,6 +7,9 @@ import {
 	contactInput,
 } from "./variables"
 
+import editIcon from "/icons/edit.png"
+import deleteIcon from "/icons/delete.png"
+
 /**
  * Student Details Manager - Handles add, edit, delete operations
  */
@@ -201,14 +204,14 @@ class StudentDetailsManager {
 							data-index="${index}"
 							title="Edit"
 						>
-							<img src="./src/icons/edit.png" alt="Edit" class="size-6 mx-auto">
+							<img src="${editIcon}" alt="Edit" class="size-6 mx-auto">
 						</button>
 						<button 
 							class="delete-btn btn" 
 							data-index="${index}"
 							title="Delete"
 						>
-							<img src="./src/icons/delete.png" alt="Delete" class="size-6 mx-auto">
+							<img src="${deleteIcon}" alt="Delete" class="size-6 mx-auto">
 						</button>
 					</div>
 				</td>

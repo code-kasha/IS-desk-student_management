@@ -1,53 +1,93 @@
-# Task 1: Basic Structure - 5
+# ✅ Desk – To-Do Checklist
 
-- Create an HTML file named "index.html" with the basic structure of an HTML
-  document. - OK
-- Set meaningful titles and include appropriate meta tags - OK
+---
 
-# Task 2: Header - 5
+## 🧱 Task 1: Basic Structure (5 Marks)
 
-- Include a catchy title reflecting the system's purpose - OK
-- Add a brief description summarizing the system's functionalitie - OK
+- Create `index.html` with proper HTML5 boilerplate ✅
+- Add meaningful `<title>` tag ✅
+- Include essential meta tags (`charset`, `viewport`, `description`) ✅
 
-# Task 3: Form and Input Fields - 5
+---
 
-- Develop a form with input fields for student details, including Student name,
-  student ID, email ID, and contact number. Ensure appropriate styling and
-  layout for a better user experience.
+## 🧭 Task 2: Header Section (5 Marks)
 
-# Task 4: Display Section - 15
+- Add main heading: **Desk** ✅
+- Include a short description explaining system functionality ✅
 
-- Please include a section to display registered student records. You can place
-  it either on the same page or on a different page. If it's on a different page,
-  please add a link to access it in the navigation bar.
-- Display student details such as Student name, student ID, email ID, and
-  Contact No. in a clear and organized manner. Marks are awarded based on
-  the responsiveness of the Display section.
+---
 
-# Task 5: Styling and Design - 20
+## 📝 Task 3: Form & Input Fields (5 Marks)
 
-- Apply CSS styling to enhance the visual appeal of the registration system.
-- Ensure proper spacing, alignment, and use of colors for better readability
-- Ensure the entire page is fully responsive across three major screen sizes: mobile (≤ 640px), tablet (<= 1024px), and desktop (≥ 1025px).
+- Create student registration form ❌
+- Add input field for **Student Name** (characters only) ❌
+- Add input field for **Student ID** (numbers only) ❌
+- Add input field for **Email ID** (valid format) ❌
+- Add input field for **Contact Number** (minimum 10 digits) ❌
+- Apply basic styling for better layout and UX ❌
 
-# Task 6: JavaScript Functionality - 40
+---
 
-- Implement functionality to add new student records.
-- Allow users to edit existing records.
-- Provide options for deleting records.
-- After refreshing the page data should not disappear ( you can use local
-  storage).
-- Validate input fields to ensure student ID and contact number accept only
-  numbers, student name accepts only characters, and email accepts only
-  valid email addresses. The Contact Number accepts at least 10 digits.
-- Make sure the user can't add the empty row.
-- Add a vertical scrollbar dynamically. (With the use of JavaScript)
+## 📊 Task 4: Display Section (15 Marks)
 
-# Task 7: Documentation and Comments - 10
+- Create section to display registered students ❌
+- Show Student Name, ID, Email, and Contact Number ❌
+- Ensure display layout is clean and readable ❌
+- Make display section fully responsive ❌
+- Add navigation link if display is on a separate page ❌
 
-- Organized file structure. Avoid nested folder structure.
-- Creativity and Presentation.
-- Include comments in the code to explain complex sections or logic.
-- Please upload your project to GitHub and provide the GitHub link.
-  Failure to do so will result in marks being deducted.
-- HTML, CSS, JS, and README must have their separate commit
+---
+
+## 🎨 Task 5: Styling & Responsive Design (20 Marks)
+
+- Apply CSS styling for visual appeal ❌
+- Maintain proper spacing and alignment ❌
+- Use appropriate color scheme for readability ❌
+- Ensure responsiveness for:
+  - Mobile (≤ 640px) ❌
+  - Tablet (641px – 1024px) ❌
+  - Desktop (≥ 1025px) ❌
+
+---
+
+## ⚙️ Task 6: JavaScript Functionality (40 Marks)
+
+- Implement **Add Student** functionality ❌
+- Implement **Edit Student** functionality ❌
+- Implement **Delete Student** functionality ❌
+- Prevent empty row submission ❌
+- Validate all input fields ❌
+- Store data in **Local Storage** ❌
+- Ensure data persists after page refresh ❌
+- Add vertical scrollbar dynamically using JavaScript ❌
+
+---
+
+## 📚 Task 7: Documentation & Code Quality (10 Marks)
+
+- Maintain clean, non-nested file structure ❌
+- Add meaningful comments in complex code sections ❌
+- Ensure creativity and good presentation ✅
+- Upload project to GitHub ✅
+- Commit files separately:
+  - HTML ✅
+  - CSS ✅
+  - JavaScript ✅
+  - README ✅
+- Remove `node_modules` if using Tailwind CSS ✅
+
+---
+
+## 📦 Final Submission Checklist
+
+- Zip file contains all required files ❌
+- Code is readable and well-organized ❌
+- Semantic HTML tags used ❌
+- Project tested thoroughly ❌
+- GitHub link added to README ❌
+
+---
+
+## 🏁 Status
+
+**Project Completion:** ❌ In Progress

@@ -1,3 +1,12 @@
+import {
+	form,
+	submitBtn,
+	nameInput,
+	idInput,
+	emailInput,
+	contactInput,
+} from "./variables"
+
 /**
  * Represents a single form field with validation metadata.
  * @typedef {Object} FormField
@@ -8,24 +17,6 @@
  * @property {function(string): boolean} validate - Validation function; returns true if valid.
  * @property {string} errorMsg - Error message displayed if validation fails.
  */
-
-/** @type {HTMLFormElement} The registration form element */
-const form = document.getElementById("student-details")
-
-/** @type {HTMLButtonElement|HTMLInputElement} The submit button */
-const submitBtn = document.getElementById("submit-details")
-
-/** @type {HTMLInputElement} Name input field (letters and spaces only) */
-const nameInput = document.getElementById("s_name")
-
-/** @type {HTMLInputElement} ID input field (numbers only) */
-const idInput = document.getElementById("s_id")
-
-/** @type {HTMLInputElement} Email input field (valid email format) */
-const emailInput = document.getElementById("s_email")
-
-/** @type {HTMLInputElement} Contact input field (exactly 10 digits) */
-const contactInput = document.getElementById("s_contact")
 
 /** @type {FormField[]} All form fields with validation rules and error messages */
 const fields = [

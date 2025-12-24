@@ -1,4 +1,7 @@
 import "./style.css"
 
-// Form
-import "./scripts/contact-form"
+// Input Form
+import "./scripts/input-form"
+
+// Student Details
+import "./scripts/student-details"

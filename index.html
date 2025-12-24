@@ -11,12 +11,12 @@
 		<title>Desk</title>
 	</head>
 	<body>
-		<header class="p-5 mb-5">
-			<p class="text-3xl text-center font-bold">Desk</p>
+		<header>
+			<p class="site-title">Desk</p>
 		</header>
 		<main>
 			<section id="registration-form">
-				<form id="student-details" action="" class="form">
+				<form id="student-details">
 					<label for="student_name" class="input-text">Name</label>
 					<input
 						type="text"
@@ -53,10 +53,24 @@
 						id="submit-details"
 						name="Submit"
 						class="submit-btn"
+						id="submit_btn"
 					/>
 				</form>
 			</section>
-			<section id="student-display"></section>
+			<section id="student-table">
+				<table class="students-table">
+					<thead>
+						<tr class="">
+							<th class="table-item">Name</th>
+							<th class="table-item">ID</th>
+							<th class="table-item">Email</th>
+							<th class="table-item">Contact</th>
+							<th class="table-item">Options</th>
+						</tr>
+					</thead>
+					<tbody id="table-body"></tbody>
+				</table>
+			</section>
 		</main>
 		<footer></footer>
 		<script type="module" src="/src/main.js"></script>

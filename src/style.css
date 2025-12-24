@@ -14,7 +14,7 @@
 	}
 
 	.input-field {
-		@apply border rounded-lg w-11/12 mx-auto p-1 bg-white;
+		@apply border rounded-lg w-11/12 mx-auto p-1 bg-gray-50;
 	}
 
 	.input-text {
@@ -22,6 +22,58 @@
 	}
 
 	.submit-btn {
-		@apply border bg-gray-400 hover:bg-gray-200 rounded-xl p-2 max-w-20 mx-auto my-2;
+		@apply border bg-violet-400 hover:bg-violet-200 rounded-xl p-2 max-w-20 mx-auto my-2;
+	}
+
+	#student-table {
+		@apply flex-1 border max-h-100 max-w-full overflow-auto;
+	}
+
+	#student-table table {
+		@apply min-w-full;
+	}
+
+	.site-title {
+		@apply text-3xl text-center font-bold;
+	}
+
+	body {
+		@apply bg-violet-50;
+	}
+
+	header {
+		@apply p-5 mb-5;
+	}
+
+	main {
+		@apply flex flex-col md:flex-row justify-between space-y-4 md:space-x-4 p-3;
+	}
+
+	#registration-form {
+		@apply w-11/12 sm:w-4/5 md:w-2/5 lg:w-1/4 border max-h-100 p-4 mx-auto md:mx-4;
+	}
+
+	#student-details {
+		@apply flex flex-col justify-center;
+	}
+
+	.students_table {
+		@apply w-full border-collapse border-b-0;
+	}
+
+	.table-item {
+		@apply p-4 text-center;
+	}
+
+	tr {
+		@apply border-b;
+	}
+
+	.table-buttons {
+		@apply flex space-x-2 items-center justify-center;
+	}
+
+	.btn {
+		@apply w-8 hover:opacity-70 transition-opacity;
 	}
 }

@@ -134,13 +134,25 @@ The application has been tested for:
 ## 📦 Submission Notes
 
 - Submitted as a ZIP file containing:
-  - `assets/__.css`
-  - `assets/__.js`
-  - `favicon.ico`
+  - `public/favicon.ico`
+  - `src/icons/delete.png`
+  - `src/icons/edit.png`
+  - `src/scripts/variables.js`
+  - `src/scripts/input-form.js`
+  - `src/scripts/student-details.js`
+  - `main.js`
+  - `style.css`
+  - `.gitignore`
   - `index.html`
+  - `package.json`
+  - `Problem.pdf`
   - `README.md`
+  - `to-do.md`
+  - `vite.config.ts`
 - No `node_modules` included
 - Fully compliant with assignment guidelines
+
+# To run this project please use npm install, npm run dev
 
 ---
 

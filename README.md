@@ -147,6 +147,9 @@ The application has been tested for:
   - `package.json`
   - `Problem.pdf`
   - `README.md`
+  - `Screenshot-Large.png`
+  - `Screenshot-Medium.png`
+  - `Screenshot-Small.png`
   - `to-do.md`
   - `vite.config.ts`
 - No `node_modules` included
